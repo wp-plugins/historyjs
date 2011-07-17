@@ -19,7 +19,7 @@ function rw_historyjs_init() {
 		wp_register_script('historyjs4', plugins_url('/js/history.html4.js',__FILE__), false, '1.7'); 
 		wp_enqueue_script('historyjs4');
 }    
-add_action('init', 'rw_lbd_init');
+add_action('init', 'rw_historyjs_init');
 
 // Include JSON2 for HTML4 Browsers Only 
 //function rw_historyjs_head() {
