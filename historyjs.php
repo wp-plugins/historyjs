@@ -1,13 +1,14 @@
 <?
 /*
-Plugin Name: History.js
+Plugin Name: History.js for WordPress
 Plugin URI: http://www.ramoonus.nl/wordpress/historyjs/
 Description: History.js gracefully supports the HTML5 History/State APIs (pushState, replaceState, onPopState) in all browsers.
-Version: 1.7.1
+Version: 1.7.1.1
 Author: Ramoonus
 Author URI: http://www.ramoonus.nl/
 License: GPL2
 */
+
 /* Javascript declarations for init */
 function rw_historyjs_init() {
 		wp_deregister_script('historyjs');
@@ -20,13 +21,4 @@ function rw_historyjs_init() {
 		wp_enqueue_script('historyjs4');
 }    
 add_action('init', 'rw_historyjs_init');
-
-/* Include JSON2 for HTML4 Browsers Only */
-//function rw_historyjs_head() {
-//	echo "<script>if ( typeof window.JSON === 'undefined' ) { document.write('<script src=";
-//	echo plugins_url();
-//echo plugins_url( 'js/json2.js' , dirname(__FILE__);
-//	echo 'historyjs/js/json2.js"><\/script>'); }</script> ';
-//}
-//add_action('wp_head', 'rw_historyjs_head');
 ?>
