@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl
 Tags: history, javascript, jquery, mootools, prototype, html5, zepto, json, html5
 Requires at least: 3.9
 Tested up to: 4.1
-Stable tag: 1.7.1.1
+Stable tag: 1.7.9.2
 
 History.js gracefully supports the HTML5 History/State APIs (pushState, replaceState, onPopState) in all browsers. 
 == Description ==
@@ -24,6 +24,9 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.7.9.2=
+This is 1.8.0 beta 2
+
 = 1.7.1.1 = 
 * Javascript files updated. Based on version 1.7.1 - 4 oct 2011
 * Readme fix
